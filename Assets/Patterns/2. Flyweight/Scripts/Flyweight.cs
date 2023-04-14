@@ -4,13 +4,14 @@ using UnityEngine;
 
 namespace Flyweight
 {
+    //[System.Serializable]
     public class Flyweight
     {
         //Data for each individual object
-        private float health;
+        public float health;
 
         //This is the data that's being shared among all objects so you have to inject it in the constructor
-        private Data data;
+        public Data data;
 
 
         public Flyweight(Data data)

@@ -4,12 +4,13 @@ using UnityEngine;
 
 namespace Flyweight
 {
+    //[System.Serializable]
     //This class doesn't share any data among all objects
     public class Heavy
     {
-        private float health;
+        public float health;
 
-        private Data data;
+        public Data data;
 
 
         public Heavy()
